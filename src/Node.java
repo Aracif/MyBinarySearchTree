@@ -1,0 +1,47 @@
+
+public class Node<T> {
+	private Node leftChild;
+	private Node rightChild;
+	private T item;
+
+	
+	public Node(T item)
+	{
+		this.item = item;
+		leftChild = null;
+		rightChild = null;
+	}
+
+
+	public Node getLeftChild() {
+		return leftChild;
+	}
+
+
+	public void setLeftChild(Node leftChild) {
+		this.leftChild = leftChild;
+	}
+
+
+	public Node getRightChild() {
+		return rightChild;
+	}
+
+
+	public void setRightChild(Node rightChild) {
+		this.rightChild = rightChild;
+	}
+
+
+	public T getItem() {
+		return item;
+	}
+
+
+	public void setItem(T item) {
+		this.item = item;
+	}
+	
+	
+
+}
