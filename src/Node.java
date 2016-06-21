@@ -1,7 +1,7 @@
 
 public class Node<T> {
-	private Node leftChild;
-	private Node rightChild;
+	private Node<T> leftChild;
+	private Node<T> rightChild;
 	private T item;
 
 	
@@ -10,6 +10,13 @@ public class Node<T> {
 		this.item = item;
 		leftChild = null;
 		rightChild = null;
+	}
+	
+	public Node(T item, Node left, Node right)
+	{
+		this.item = item;
+		leftChild = left;
+		rightChild = right;
 	}
 
 
