@@ -12,7 +12,7 @@ public class Node<T> {
 		rightChild = null;
 	}
 	
-	public Node(T item, Node left, Node right)
+	public Node(T item, Node<T> left, Node<T> right)
 	{
 		this.item = item;
 		leftChild = left;
@@ -20,22 +20,22 @@ public class Node<T> {
 	}
 
 
-	public Node getLeftChild() {
+	public Node<T> getLeftChild() {
 		return leftChild;
 	}
 
 
-	public void setLeftChild(Node leftChild) {
+	public void setLeftChild(Node<T> leftChild) {
 		this.leftChild = leftChild;
 	}
 
 
-	public Node getRightChild() {
+	public Node<T> getRightChild() {
 		return rightChild;
 	}
 
 
-	public void setRightChild(Node rightChild) {
+	public void setRightChild(Node<T> rightChild) {
 		this.rightChild = rightChild;
 	}
 

@@ -1,7 +1,7 @@
 import java.io.IOException;
 
 public abstract class BinarySearchTreeBase<T> {
-	private Node<T> root;
+	protected Node<T> root;
 
 	public BinarySearchTreeBase(T rootItem)
 	{
@@ -10,7 +10,7 @@ public abstract class BinarySearchTreeBase<T> {
 	
 	public BinarySearchTreeBase()
 	{
-		this.root = null;
+		
 	}
 	
 	public boolean isEmpty(){

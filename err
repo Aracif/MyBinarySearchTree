@@ -1,0 +1,30 @@
+Exception in thread "main" java.lang.StackOverflowError
+	at BinarySearchTree.heightHelper(BinarySearchTree.java:78)
+	at BinarySearchTree.heightHelper(BinarySearchTree.java:78)
+
+Something went wrong, try again.
+2016-06-22T19:37:05.253
+
+Something went wrong, try again.
+2016-06-22T19:38:13.020
+
+Exception in thread "main" java.lang.StackOverflowError
+	at BinarySearchTree.heightHelper(BinarySearchTree.java:78)
+	at BinarySearchTree.heightHelper(BinarySearchTree.java:78)
+	at BinarySearchTree.heightHelper(BinarySearchTree.java:78)
+
+Something went wrong, try again.
+2016-06-22T19:53:12.707
+
+Exception in thread "main" java.lang.Exception
+	at Main.main(Main.java:33)
+You can only enter values that appear in the list
+You can only enter values that appear in the list
+You can only enter values that appear in the list
+
+You can only enter values that appear in the list
+
+You can only enter values that appear in the list
+
+You can only enter values that appear in the list
+

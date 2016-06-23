@@ -1,9 +1,9 @@
 
-public class Data<KT extends Comparable<? super KT>>  extends KeyedItem 
+public class Data extends KeyedItem<String>
 {
-	private KT item;
 	
-	public Data(KT item)
+	
+	public Data(String item)
 	{
 		super(item);
 	}
